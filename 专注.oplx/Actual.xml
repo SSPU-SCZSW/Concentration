@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="m1_tcaaaaaa">
+  <start-date>2018-10-08T01:00:00.000Z</start-date>
+  <top-resource idref="r-1"/>
+  <resource id="r-1">
+    <name/>
+    <type>Group</type>
+    <schedule>
+      <schedule-day day-of-week="sunday"/>
+      <schedule-day day-of-week="monday">
+        <time-span start-time="36000" end-time="39600"/>
+        <time-span start-time="46800" end-time="57600"/>
+      </schedule-day>
+      <schedule-day day-of-week="tuesday">
+        <time-span start-time="36000" end-time="39600"/>
+        <time-span start-time="46800" end-time="57600"/>
+      </schedule-day>
+      <schedule-day day-of-week="wednesday">
+        <time-span start-time="36000" end-time="39600"/>
+        <time-span start-time="46800" end-time="57600"/>
+      </schedule-day>
+      <schedule-day day-of-week="thursday">
+        <time-span start-time="36000" end-time="39600"/>
+        <time-span start-time="46800" end-time="57600"/>
+      </schedule-day>
+      <schedule-day day-of-week="friday">
+        <time-span start-time="36000" end-time="39600"/>
+        <time-span start-time="46800" end-time="57600"/>
+      </schedule-day>
+      <schedule-day day-of-week="saturday"/>
+      <calendar name="Time Off" editable="yes" overtime="no"/>
+      <calendar name="Overtime" editable="yes" overtime="yes"/>
+    </schedule>
+    <child-resource idref="r2"/>
+    <child-resource idref="r3"/>
+    <child-resource idref="r4"/>
+    <child-resource idref="r5"/>
+    <child-resource idref="r6"/>
+    <child-resource idref="r9"/>
+  </resource>
+  <resource id="r2">
+    <name>宋子涵</name>
+    <type>Staff</type>
+    <cost-per-hour>30</cost-per-hour>
+    <schedule>
+      <calendar name="Time Off" editable="yes" overtime="no">
+        <event start="2018-12-03T01:00:00.000Z" end="2018-12-07T08:00:00.000Z" sd="6545" st="32400" ed="6549" et="57600"/>
+        <event start="2018-12-10T01:00:00.000Z" end="2018-12-14T08:00:00.000Z" sd="6552" st="32400" ed="6556" et="57600"/>
+        <event start="2018-12-17T01:00:00.000Z" end="2018-12-21T08:00:00.000Z" sd="6559" st="32400" ed="6563" et="57600"/>
+      </calendar>
+      <calendar name="Overtime" editable="yes" overtime="yes"/>
+    </schedule>
+  </resource>
+  <resource id="r3">
+    <name>褚旭</name>
+    <type>Staff</type>
+    <cost-per-hour>30</cost-per-hour>
+    <schedule>
+      <calendar name="Time Off" editable="yes" overtime="no">
+        <event start="2018-12-03T01:00:00.000Z" end="2018-12-07T08:00:00.000Z" sd="6545" st="32400" ed="6549" et="57600"/>
+        <event start="2018-12-10T01:00:00.000Z" end="2018-12-14T08:00:00.000Z" sd="6552" st="32400" ed="6556" et="57600"/>
+        <event start="2018-12-17T01:00:00.000Z" end="2018-12-21T08:00:00.000Z" sd="6559" st="32400" ed="6563" et="57600"/>
+      </calendar>
+      <calendar name="Overtime" editable="yes" overtime="yes"/>
+    </schedule>
+  </resource>
+  <resource id="r4">
+    <name>朱佳俊</name>
+    <type>Staff</type>
+    <cost-per-hour>30</cost-per-hour>
+  </resource>
+  <resource id="r5">
+    <name>吴嘉政</name>
+    <type>Staff</type>
+    <cost-per-hour>30</cost-per-hour>
+  </resource>
+  <resource id="r6">
+    <name>施健一</name>
+    <type>Staff</type>
+    <cost-per-hour>30</cost-per-hour>
+  </resource>
+  <resource id="r9">
+    <name>会议室</name>
+    <type>Equipment</type>
+    <cost-per-use>200</cost-per-use>
+    <schedule>
+      <schedule-day day-of-week="sunday"/>
+      <schedule-day day-of-week="monday">
+        <time-span start-time="28800" end-time="72000"/>
+      </schedule-day>
+      <schedule-day day-of-week="tuesday">
+        <time-span start-time="28800" end-time="72000"/>
+      </schedule-day>
+      <schedule-day day-of-week="wednesday">
+        <time-span start-time="28800" end-time="72000"/>
+      </schedule-day>
+      <schedule-day day-of-week="thursday">
+        <time-span start-time="28800" end-time="72000"/>
+      </schedule-day>
+      <schedule-day day-of-week="friday">
+        <time-span start-time="28800" end-time="72000"/>
+      </schedule-day>
+      <schedule-day day-of-week="saturday"/>
+      <calendar name="Time Off" editable="yes" overtime="no"/>
+      <calendar name="Overtime" editable="yes" overtime="yes"/>
+    </schedule>
+  </resource>
+  <top-task idref="t-1"/>
+  <task id="t-1">
+    <type>group</type>
+    <child-task idref="t1"/>
+  </task>
+  <task id="t1">
+    <title>专注</title>
+    <type>group</type>
+    <priority>500</priority>
+    <child-task idref="t2"/>
+    <child-task idref="t5"/>
+    <child-task idref="t10"/>
+    <child-task idref="t12"/>
+    <child-task idref="t23"/>
+    <child-task idref="t30"/>
+    <child-task idref="t37"/>
+    <child-task idref="t38"/>
+  </task>
+  <task id="t2">
+    <title>项目范围规划</title>
+    <type>group</type>
+    <priority>500</priority>
+    <child-task idref="t3"/>
+    <child-task idref="t4"/>
+  </task>
+  <task id="t3">
+    <title>确定项目范围</title>
+    <priority>500</priority>
+    <effort>345600</effort>
+    <effort-done>345600</effort-done>
+    <recalculate>effort</recalculate>
+    <fixed-duration>57600</fixed-duration>
+    <assignment idref="r3"/>
+    <assignment idref="r4"/>
+    <assignment idref="r2"/>
+    <assignment idref="r5"/>
+    <assignment idref="r6"/>
+    <assignment idref="r9"/>
+  </task>
+  <task id="t4">
+    <title>软件规划完成</title>
+    <type>milestone</type>
+    <leveled-start>2018-10-11T08:00:00.000Z</leveled-start>
+    <priority>500</priority>
+    <completion-percentage>1</completion-percentage>
+    <recalculate>effort</recalculate>
+    <fixed-duration>0</fixed-duration>
+    <prerequisite-task idref="t3"/>
+  </task>
+  <task id="t5">
+    <title>需求分析</title>
+    <type>group</type>
+    <priority>500</priority>
+    <child-task idref="t6"/>
+    <child-task idref="t7"/>
+    <child-task idref="t8"/>
+    <child-task idref="t9"/>
+    <prerequisite-task idref="t2"/>
+  </task>
+  <task id="t6">
+    <title>业务需求分析</title>
+    <priority>500</priority>
+    <effort>172800</effort>
+    <effort-done>172800</effort-done>
+    <recalculate>effort</recalculate>
+    <fixed-duration>28800</fixed-duration>
+    <assignment idref="r3"/>
+    <assignment idref="r6"/>
+    <assignment idref="r2"/>
+    <assignment idref="r5"/>
+    <assignment idref="r4"/>
+    <assignment idref="r9"/>
+  </task>
+  <task id="t7">
+    <title>用户需求分析</title>
+    <priority>500</priority>
+    <effort>172800</effort>
+    <effort-done>172800</effort-done>
+    <recalculate>effort</recalculate>
+    <fixed-duration>28800</fixed-duration>
+    <prerequisite-task idref="t6"/>
+    <assignment idref="r3"/>
+    <assignment idref="r6"/>
+    <assignment idref="r2"/>
+    <assignment idref="r5"/>
+    <assignment idref="r4"/>
+    <assignment idref="r9"/>
+  </task>
+  <task id="t8">
+    <title>功能需求分析</title>
+    <priority>500</priority>
+    <effort>172800</effort>
+    <effort-done>172800</effort-done>
+    <recalculate>effort</recalculate>
+    <fixed-duration>28800</fixed-duration>
+    <prerequisite-task idref="t7"/>
+    <assignment idref="r3"/>
+    <assignment idref="r6"/>
+    <assignment idref="r2"/>
+    <assignment idref="r5"/>
+    <assignment idref="r4"/>
+    <assignment idref="r9"/>
+  </task>
+  <task id="t9">
+    <title>需求分析完成</title>
+    <type>milestone</type>
+    <leveled-start>2018-10-19T08:00:00.000Z</leveled-start>
+    <priority>500</priority>
+    <completion-percentage>1</completion-percentage>
+    <recalculate>effort</recalculate>
+    <fixed-duration>0</fixed-duration>
+    <prerequisite-task idref="t8"/>
+  </task>
+  <task id="t10">
+    <title>可行性分析</title>
+    <priority>500</priority>
+    <effort>172800</effort>
+    <effort-done>172800</effort-done>
+    <recalculate>effort</recalculate>
+    <fixed-duration>28800</fixed-duration>
+    <prerequisite-task idref="t5"/>
+    <assignment idref="r6"/>
+    <assignment idref="r3"/>
+    <assignment idref="r4"/>
+    <assignment idref="r2"/>
+    <assignment idref="r5"/>
+    <assignment idref="r9"/>
+  </task>
+  <task id="t12">
+    <title>系统设计</title>
+    <type>group</type>
+    <priority>500</priority>
+    <child-task idref="t13"/>
+    <child-task idref="t18"/>
+    <child-task idref="t22"/>
+    <prerequisite-task idref="t10"/>
+  </task>
+  <task id="t13">
+    <title>概要设计</title>
+    <type>group</type>
+    <priority>500</priority>
+    <child-task idref="t14"/>
+    <child-task idref="t15"/>
+    <child-task idref="t16"/>
+    <child-task idref="t17"/>
+  </task>
+  <task id="t14">
+    <title>数据字典设计</title>
+    <priority>500</priority>
+    <effort>288000</effort>
+    <effort-done>288000</effort-done>
+    <recalculate>effort</recalculate>
+    <fixed-duration>57600</fixed-duration>
+    <assignment idref="r2"/>
+    <assignment idref="r4"/>
+    <assignment idref="r5"/>
+    <assignment idref="r3"/>
+    <assignment idref="r9"/>
+  </task>
+  <task id="t15">
+    <title>体系结构设计</title>
+    <priority>500</priority>
+    <effort>172800</effort>
+    <effort-done>172800</effort-done>
+    <recalculate>effort</recalculate>
+    <fixed-duration>28800</fixed-duration>
+    <prerequisite-task idref="t14"/>
+    <assignment idref="r2"/>
+    <assignment idref="r3"/>
+    <assignment idref="r4"/>
+    <assignment idref="r5"/>
+    <assignment idref="r9"/>
+    <assignment idref="r6"/>
+  </task>
+  <task id="t16">
+    <title>接口设计</title>
+    <priority>500</priority>
+    <effort>172800</effort>
+    <effort-done>172800</effort-done>
+    <recalculate>effort</recalculate>
+    <fixed-duration>28800</fixed-duration>
+    <prerequisite-task idref="t15"/>
+    <assignment idref="r4"/>
+    <assignment idref="r5"/>
+    <assignment idref="r3"/>
+    <assignment idref="r2"/>
+    <assignment idref="r9"/>
+    <assignment idref="r6"/>
+  </task>
+  <task id="t17">
+    <title>过程设计</title>
+    <priority>500</priority>
+    <effort>172800</effort>
+    <effort-done>172800</effort-done>
+    <recalculate>effort</recalculate>
+    <fixed-duration>28800</fixed-duration>
+    <prerequisite-task idref="t16"/>
+    <assignment idref="r4"/>
+    <assignment idref="r5"/>
+    <assignment idref="r3"/>
+    <assignment idref="r2"/>
+    <assignment idref="r9"/>
+    <assignment idref="r6"/>
+  </task>
+  <task id="t18">
+    <title>详细设计</title>
+    <type>group</type>
+    <priority>500</priority>
+    <child-task idref="t19"/>
+    <child-task idref="t20"/>
+    <child-task idref="t21"/>
+  </task>
+  <task id="t19">
+    <title>UI设计</title>
+    <priority>500</priority>
+    <effort>57600</effort>
+    <effort-done>57600</effort-done>
+    <recalculate>effort</recalculate>
+    <fixed-duration>57600</fixed-duration>
+    <assignment idref="r6"/>
+  </task>
+  <task id="t20">
+    <title>数据库设计</title>
+    <priority>500</priority>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <recalculate>effort</recalculate>
+    <fixed-duration>28800</fixed-duration>
+    <prerequisite-task idref="t14"/>
+    <assignment idref="r2"/>
+  </task>
+  <task id="t21">
+    <title>流程图设计</title>
+    <priority>500</priority>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <recalculate>effort</recalculate>
+    <fixed-duration>28800</fixed-duration>
+    <prerequisite-task idref="t20"/>
+    <assignment idref="r3"/>
+  </task>
+  <task id="t22">
+    <title>系统设计完成</title>
+    <type>milestone</type>
+    <leveled-start>2018-11-06T08:00:00.000Z</leveled-start>
+    <priority>500</priority>
+    <completion-percentage>1</completion-percentage>
+    <recalculate>effort</recalculate>
+    <fixed-duration>0</fixed-duration>
+    <prerequisite-task idref="t13"/>
+    <prerequisite-task idref="t18"/>
+  </task>
+  <task id="t23">
+    <title>开发</title>
+    <type>group</type>
+    <priority>500</priority>
+    <child-task idref="t40"/>
+    <child-task idref="t41"/>
+    <child-task idref="t61"/>
+    <prerequisite-task idref="t12"/>
+  </task>
+  <task id="t25">
+    <title>任务管理模块</title>
+    <priority>500</priority>
+    <effort>115200</effort>
+    <effort-done>115200</effort-done>
+    <recalculate>effort</recalculate>
+    <fixed-duration>115200</fixed-duration>
+    <assignment idref="r2"/>
+  </task>
+  <task id="t26">
+    <title>专注计时模块</title>
+    <priority>500</priority>
+    <effort>57600</effort>
+    <effort-done>57600</effort-done>
+    <recalculate>effort</recalculate>
+    <fixed-duration>57600</fixed-duration>
+    <assignment idref="r3"/>
+  </task>
+  <task id="t27">
+    <title>统计模块</title>
+    <priority>500</priority>
+    <effort>57600</effort>
+    <effort-done>57600</effort-done>
+    <recalculate>effort</recalculate>
+    <fixed-duration>57600</fixed-duration>
+    <assignment idref="r5"/>
+  </task>
+  <task id="t28">
+    <title>分享模块</title>
+    <priority>500</priority>
+    <effort>57600</effort>
+    <effort-done>57600</effort-done>
+    <recalculate>effort</recalculate>
+    <fixed-duration>57600</fixed-duration>
+    <assignment idref="r6"/>
+  </task>
+  <task id="t30">
+    <title>测试</title>
+    <type>group</type>
+    <priority>500</priority>
+    <child-task idref="t31"/>
+    <child-task idref="t32"/>
+    <child-task idref="t33"/>
+    <child-task idref="t34"/>
+    <child-task idref="t35"/>
+    <child-task idref="t36"/>
+    <child-task idref="t62"/>
+    <prerequisite-task idref="t23"/>
+  </task>
+  <task id="t31">
+    <title>根据产品规范制定单元测试计划</title>
+    <priority>500</priority>
+    <effort>172800</effort>
+    <effort-done>172800</effort-done>
+    <recalculate>effort</recalculate>
+    <fixed-duration>28800</fixed-duration>
+    <assignment idref="r2"/>
+    <assignment idref="r3"/>
+    <assignment idref="r5"/>
+    <assignment idref="r4"/>
+    <assignment idref="r6"/>
+    <assignment idref="r9"/>
+  </task>
+  <task id="t32">
+    <title>根据产品规范制定集成测试计划</title>
+    <priority>500</priority>
+    <effort>86400</effort>
+    <effort-done>86400</effort-done>
+    <recalculate>effort</recalculate>
+    <fixed-duration>28800</fixed-duration>
+    <prerequisite-task idref="t31"/>
+    <assignment idref="r5"/>
+    <assignment idref="r6"/>
+    <assignment idref="r4"/>
+  </task>
+  <task id="t33">
+    <title>根据产品规范制定系统测试计划</title>
+    <priority>500</priority>
+    <effort>57600</effort>
+    <effort-done>57600</effort-done>
+    <recalculate>effort</recalculate>
+    <fixed-duration>28800</fixed-duration>
+    <prerequisite-task idref="t35"/>
+    <assignment idref="r2"/>
+    <assignment idref="r3"/>
+  </task>
+  <task id="t34">
+    <title>单元测试</title>
+    <priority>500</priority>
+    <effort>288000</effort>
+    <effort-done>288000</effort-done>
+    <recalculate>effort</recalculate>
+    <fixed-duration>57600</fixed-duration>
+    <prerequisite-task idref="t31"/>
+    <assignment idref="r5"/>
+    <assignment idref="r4"/>
+    <assignment idref="r3"/>
+    <assignment idref="r2"/>
+    <assignment idref="r6"/>
+  </task>
+  <task id="t35">
+    <title>集成测试</title>
+    <priority>500</priority>
+    <effort>172800</effort>
+    <effort-done>172800</effort-done>
+    <recalculate>effort</recalculate>
+    <fixed-duration>57600</fixed-duration>
+    <prerequisite-task idref="t32"/>
+    <prerequisite-task idref="t34"/>
+    <assignment idref="r5"/>
+    <assignment idref="r6"/>
+    <assignment idref="r4"/>
+  </task>
+  <task id="t36">
+    <title>系统测试</title>
+    <priority>500</priority>
+    <effort>57600</effort>
+    <effort-done>57600</effort-done>
+    <recalculate>effort</recalculate>
+    <fixed-duration>28800</fixed-duration>
+    <prerequisite-task idref="t33"/>
+    <assignment idref="r2"/>
+    <assignment idref="r3"/>
+  </task>
+  <task id="t37">
+    <title>验收运行</title>
+    <priority>500</priority>
+    <effort>345600</effort>
+    <effort-done>86400</effort-done>
+    <recalculate>effort</recalculate>
+    <fixed-duration>57600</fixed-duration>
+    <prerequisite-task idref="t30"/>
+    <assignment idref="r3"/>
+    <assignment idref="r6"/>
+    <assignment idref="r2"/>
+    <assignment idref="r5"/>
+    <assignment idref="r4"/>
+    <assignment idref="r9"/>
+  </task>
+  <task id="t38">
+    <title>系统提交完成</title>
+    <type>milestone</type>
+    <leveled-start>2019-01-01T06:00:00.000Z</leveled-start>
+    <priority>500</priority>
+    <recalculate>effort</recalculate>
+    <fixed-duration>0</fixed-duration>
+    <prerequisite-task idref="t37"/>
+  </task>
+  <task id="t39">
+    <title>任务组管理模块</title>
+    <priority>500</priority>
+    <effort>57600</effort>
+    <effort-done>57600</effort-done>
+    <recalculate>effort</recalculate>
+    <fixed-duration>57600</fixed-duration>
+    <assignment idref="r4"/>
+  </task>
+  <task id="t40">
+    <title>公共模块</title>
+    <priority>500</priority>
+    <effort>144000</effort>
+    <effort-done>144000</effort-done>
+    <recalculate>effort</recalculate>
+    <fixed-duration>28800</fixed-duration>
+    <assignment idref="r4"/>
+    <assignment idref="r3"/>
+    <assignment idref="r6"/>
+    <assignment idref="r2"/>
+    <assignment idref="r5"/>
+  </task>
+  <task id="t41">
+    <title>具体模块</title>
+    <type>group</type>
+    <priority>500</priority>
+    <child-task idref="t25"/>
+    <child-task idref="t39"/>
+    <child-task idref="t26"/>
+    <child-task idref="t27"/>
+    <child-task idref="t28"/>
+    <prerequisite-task idref="t40"/>
+  </task>
+  <task id="t61">
+    <title>系统编码完成</title>
+    <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
+    <prerequisite-task idref="t41"/>
+  </task>
+  <task id="t62">
+    <title>测试完成</title>
+    <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
+    <prerequisite-task idref="t36"/>
+  </task>
+  <critical-path root="-1" enabled="false" resources="false">
+    <color space="srgb" r="1" g="0.5" b="0.5"/>
+  </critical-path>
+  <critical-path root="9" enabled="true" resources="false">
+    <color space="srgb" h="0.4" s="0.5" v="0.8"/>
+  </critical-path>
+  <critical-path root="4" enabled="true" resources="false">
+    <color space="srgb" h="0.6" s="0.5" v="0.8"/>
+  </critical-path>
+  <critical-path root="22" enabled="true" resources="false">
+    <color space="srgb" h="0.2" s="0.5" v="0.8"/>
+  </critical-path>
+  <critical-path root="61" enabled="true" resources="false">
+    <color space="srgb" r="0" g="0.991439" b="1"/>
+  </critical-path>
+  <critical-path root="62" enabled="true" resources="false">
+    <color space="srgb" r="1" g="0.149131" b="0"/>
+  </critical-path>
+  <critical-path root="38" enabled="true" resources="false">
+    <color space="srgb" r="0.999534" g="0.988356" b="0.472655"/>
+  </critical-path>
+</scenario>

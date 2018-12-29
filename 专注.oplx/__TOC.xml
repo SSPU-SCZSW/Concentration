@@ -2,22 +2,28 @@
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2" file-format-version="2">
   <window x="0" y="0" w="1920" h="1057">
     <editing-scenario>m1_tcaaaaaa</editing-scenario>
+    <comparison-scenario>jNBDsbpgBUc</comparison-scenario>
     <view>task</view>
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>571</split-view-divider-position>
-      <outline x="0" y="0" w="571" h="973">
+      <split-view-divider-position>1000</split-view-divider-position>
+      <outline x="0" y="0" w="1000" h="973">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
-        <column name="Title" width="306"/>
+        <column name="Title" width="286"/>
         <column name="Effort" width="70"/>
+        <column name="Effort Done" width="80"/>
         <column name="Total Task Cost" width="80"/>
         <column name="Time" width="68"/>
+        <column name="ev_actualCostOfWorkPerformed" width="115"/>
+        <column name="ev_budgetedCostOfWorkPerformed" width="91"/>
+        <column name="ev_costPerformanceIndex" width="90"/>
+        <column name="ev_costVariance" width="68"/>
         <expanded-items idrefs="t30 t23 t13 t2 t5 t12 t41 t18 t1"/>
-        <selected-items-at-filter-time idrefs="t61 t62"/>
+        <selected-items-at-filter-time idrefs="t62 t61"/>
       </outline>
-      <gantt-view x="-54" y="0" w="1047" h="973">
+      <gantt-view x="-54" y="0" w="618" h="973">
         <view-mode>actual</view-mode>
         <critical-path/>
         <dependency-lines/>
@@ -50,7 +56,7 @@
         <task-bar-label task-type="task" position="right">
           <key>Assigned</key>
         </task-bar-label>
-        <scale scale-name="Automatic" full-day-width="66.8296">
+        <scale scale-name="Automatic" full-day-width="25.8105">
           <selected/>
         </scale>
         <scale scale-name="Day" full-day-width="1215"/>
@@ -142,6 +148,9 @@ End:</group-table-style>
     <next-task-id>63</next-task-id>
     <next-resource-id>12</next-resource-id>
     <scenario id="m1_tcaaaaaa" name="Actual" filename="Actual.xml"/>
+    <scenario id="luQDXHkD9kU" name="基线 2018/10/8" filename="luQDXHkD9kU.xml"/>
+    <scenario id="k0Dv0MPIOzD" name="基线 2018/11/8" filename="k0Dv0MPIOzD.xml"/>
+    <scenario id="jNBDsbpgBUc" name="基线 2018/12/29" filename="jNBDsbpgBUc.xml"/>
     <date-display dates="true" times="true" seconds="false"/>
     <numbering-style>wbs</numbering-style>
     <critical-path-slack>0</critical-path-slack>

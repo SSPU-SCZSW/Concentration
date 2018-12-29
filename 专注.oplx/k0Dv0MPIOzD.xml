@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="m1_tcaaaaaa">
+<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="k0Dv0MPIOzD">
   <start-date>2018-10-08T01:00:00.000Z</start-date>
-  <prototype-task>
-    <task id="t-2">
-      <title>验收运行</title>
-      <effort>28800</effort>
-    </task>
-  </prototype-task>
   <top-resource idref="r-1"/>
   <resource id="r-1">
     <name/>
@@ -304,7 +298,7 @@
     <title>过程设计</title>
     <priority>500</priority>
     <effort>172800</effort>
-    <effort-done>172800</effort-done>
+    <effort-done>129600</effort-done>
     <recalculate>effort</recalculate>
     <fixed-duration>28800</fixed-duration>
     <prerequisite-task idref="t16"/>
@@ -327,7 +321,7 @@
     <title>UI设计</title>
     <priority>500</priority>
     <effort>57600</effort>
-    <effort-done>57600</effort-done>
+    <effort-done>50400</effort-done>
     <recalculate>effort</recalculate>
     <fixed-duration>57600</fixed-duration>
     <assignment idref="r6"/>
@@ -346,7 +340,7 @@
     <title>流程图设计</title>
     <priority>500</priority>
     <effort>28800</effort>
-    <effort-done>14400</effort-done>
+    <effort-done>21600</effort-done>
     <recalculate>effort</recalculate>
     <fixed-duration>28800</fixed-duration>
     <prerequisite-task idref="t20"/>
@@ -376,7 +370,6 @@
     <title>任务管理模块</title>
     <priority>500</priority>
     <effort>115200</effort>
-    <effort-done>100800</effort-done>
     <recalculate>effort</recalculate>
     <fixed-duration>115200</fixed-duration>
     <assignment idref="r2"/>
@@ -385,7 +378,6 @@
     <title>专注计时模块</title>
     <priority>500</priority>
     <effort>57600</effort>
-    <effort-done>57600</effort-done>
     <recalculate>effort</recalculate>
     <fixed-duration>57600</fixed-duration>
     <assignment idref="r3"/>
@@ -394,7 +386,6 @@
     <title>统计模块</title>
     <priority>500</priority>
     <effort>57600</effort>
-    <effort-done>57600</effort-done>
     <recalculate>effort</recalculate>
     <fixed-duration>57600</fixed-duration>
     <assignment idref="r5"/>
@@ -403,7 +394,6 @@
     <title>分享模块</title>
     <priority>500</priority>
     <effort>57600</effort>
-    <effort-done>43200</effort-done>
     <recalculate>effort</recalculate>
     <fixed-duration>57600</fixed-duration>
     <assignment idref="r6"/>
@@ -425,7 +415,6 @@
     <title>根据产品规范制定单元测试计划</title>
     <priority>500</priority>
     <effort>172800</effort>
-    <effort-done>172800</effort-done>
     <recalculate>effort</recalculate>
     <fixed-duration>28800</fixed-duration>
     <assignment idref="r2"/>
@@ -439,7 +428,6 @@
     <title>根据产品规范制定集成测试计划</title>
     <priority>500</priority>
     <effort>86400</effort>
-    <effort-done>86400</effort-done>
     <recalculate>effort</recalculate>
     <fixed-duration>28800</fixed-duration>
     <prerequisite-task idref="t31"/>
@@ -451,7 +439,6 @@
     <title>根据产品规范制定系统测试计划</title>
     <priority>500</priority>
     <effort>57600</effort>
-    <effort-done>57600</effort-done>
     <recalculate>effort</recalculate>
     <fixed-duration>28800</fixed-duration>
     <prerequisite-task idref="t35"/>
@@ -462,7 +449,6 @@
     <title>单元测试</title>
     <priority>500</priority>
     <effort>288000</effort>
-    <effort-done>288000</effort-done>
     <recalculate>effort</recalculate>
     <fixed-duration>57600</fixed-duration>
     <prerequisite-task idref="t31"/>
@@ -476,7 +462,6 @@
     <title>集成测试</title>
     <priority>500</priority>
     <effort>172800</effort>
-    <effort-done>108000</effort-done>
     <recalculate>effort</recalculate>
     <fixed-duration>57600</fixed-duration>
     <prerequisite-task idref="t32"/>
@@ -489,7 +474,6 @@
     <title>系统测试</title>
     <priority>500</priority>
     <effort>57600</effort>
-    <effort-done>36000</effort-done>
     <recalculate>effort</recalculate>
     <fixed-duration>28800</fixed-duration>
     <prerequisite-task idref="t33"/>
@@ -523,7 +507,6 @@
     <title>任务组管理模块</title>
     <priority>500</priority>
     <effort>57600</effort>
-    <effort-done>57600</effort-done>
     <recalculate>effort</recalculate>
     <fixed-duration>57600</fixed-duration>
     <assignment idref="r4"/>
@@ -555,13 +538,11 @@
   <task id="t61">
     <title>系统编码完成</title>
     <type>milestone</type>
-    <completion-percentage>1</completion-percentage>
     <prerequisite-task idref="t41"/>
   </task>
   <task id="t62">
     <title>测试完成</title>
     <type>milestone</type>
-    <completion-percentage>1</completion-percentage>
     <prerequisite-task idref="t36"/>
   </task>
   <critical-path root="-1" enabled="false" resources="false">

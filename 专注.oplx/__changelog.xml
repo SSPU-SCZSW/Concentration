@@ -544,6 +544,89 @@
     <change idref="t31" attribute="internalEffortDone" type="real" from="144000" to="172800" resolved="yes"/>
     <change idref="t37" attribute="internalEffortDone" type="real" from="72000" to="86400" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Misaka" date="2018-12-29T08:55:54.007Z" timestamp="2018-12-29T08:55:54.007Z">
+    <change idref="t3" attribute="internalEffortDone" type="real" from="345600" to="0" resolved="yes"/>
+    <change idref="t4" attribute="percentCompleteForMilestone" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t6" attribute="internalEffortDone" type="real" from="172800" to="0" resolved="yes"/>
+    <change idref="t7" attribute="internalEffortDone" type="real" from="172800" to="0" resolved="yes"/>
+    <change idref="t8" attribute="internalEffortDone" type="real" from="172800" to="0" resolved="yes"/>
+    <change idref="t9" attribute="percentCompleteForMilestone" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t10" attribute="internalEffortDone" type="real" from="172800" to="0" resolved="yes"/>
+    <change idref="t14" attribute="internalEffortDone" type="real" from="288000" to="0" resolved="yes"/>
+    <change idref="t15" attribute="internalEffortDone" type="real" from="172800" to="0" resolved="yes"/>
+    <change idref="t16" attribute="internalEffortDone" type="real" from="172800" to="0" resolved="yes"/>
+    <change idref="t17" attribute="internalEffortDone" type="real" from="172800" to="0" resolved="yes"/>
+    <change idref="t19" attribute="internalEffortDone" type="real" from="57600" to="0" resolved="yes"/>
+    <change idref="t20" attribute="internalEffortDone" type="real" from="28800" to="0" resolved="yes"/>
+    <change idref="t21" attribute="internalEffortDone" type="real" from="28800" to="0" resolved="yes"/>
+    <change idref="t22" attribute="percentCompleteForMilestone" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t25" attribute="internalEffortDone" type="real" from="115200" to="0" resolved="yes"/>
+    <change idref="t26" attribute="internalEffortDone" type="real" from="57600" to="0" resolved="yes"/>
+    <change idref="t27" attribute="internalEffortDone" type="real" from="57600" to="0" resolved="yes"/>
+    <change idref="t28" attribute="internalEffortDone" type="real" from="57600" to="0" resolved="yes"/>
+    <change idref="t31" attribute="internalEffortDone" type="real" from="172800" to="0" resolved="yes"/>
+    <change idref="t32" attribute="internalEffortDone" type="real" from="86400" to="0" resolved="yes"/>
+    <change idref="t33" attribute="internalEffortDone" type="real" from="57600" to="0" resolved="yes"/>
+    <change idref="t34" attribute="internalEffortDone" type="real" from="288000" to="0" resolved="yes"/>
+    <change idref="t35" attribute="internalEffortDone" type="real" from="172800" to="0" resolved="yes"/>
+    <change idref="t36" attribute="internalEffortDone" type="real" from="57600" to="0" resolved="yes"/>
+    <change idref="t37" attribute="internalEffortDone" type="real" from="86400" to="0" resolved="yes"/>
+    <change idref="t39" attribute="internalEffortDone" type="real" from="57600" to="0" resolved="yes"/>
+    <change idref="t40" attribute="internalEffortDone" type="real" from="144000" to="0" resolved="yes"/>
+    <change idref="t61" attribute="percentCompleteForMilestone" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t62" attribute="percentCompleteForMilestone" type="real" from="1" to="0" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Misaka" date="2018-12-29T08:56:43.343Z" timestamp="2018-12-29T08:56:43.343Z">
+    <change idref="t3" attribute="internalEffortDone" type="real" from="0" to="345600" resolved="yes"/>
+    <change idref="t4" attribute="percentCompleteForMilestone" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t6" attribute="internalEffortDone" type="real" from="0" to="172800" resolved="yes"/>
+    <change idref="t7" attribute="internalEffortDone" type="real" from="0" to="172800" resolved="yes"/>
+    <change idref="t8" attribute="internalEffortDone" type="real" from="0" to="172800" resolved="yes"/>
+    <change idref="t9" attribute="percentCompleteForMilestone" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t10" attribute="internalEffortDone" type="real" from="0" to="172800" resolved="yes"/>
+    <change idref="t14" attribute="internalEffortDone" type="real" from="0" to="288000" resolved="yes"/>
+    <change idref="t15" attribute="internalEffortDone" type="real" from="0" to="172800" resolved="yes"/>
+    <change idref="t16" attribute="internalEffortDone" type="real" from="0" to="172800" resolved="yes"/>
+    <change idref="t17" attribute="internalEffortDone" type="real" from="0" to="129600" resolved="yes"/>
+    <change idref="t19" attribute="internalEffortDone" type="real" from="0" to="50400" resolved="yes"/>
+    <change idref="t20" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t21" attribute="internalEffortDone" type="real" from="0" to="21600" resolved="yes"/>
+    <change idref="t22" attribute="percentCompleteForMilestone" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t40" attribute="internalEffortDone" type="real" from="0" to="144000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Misaka" date="2018-12-29T09:07:48.862Z" timestamp="2018-12-29T09:07:48.862Z">
+    <change idref="t17" attribute="internalEffortDone" type="real" from="129600" to="172800" resolved="yes"/>
+    <change idref="t19" attribute="internalEffortDone" type="real" from="50400" to="57600" resolved="yes"/>
+    <change idref="t21" attribute="internalEffortDone" type="real" from="21600" to="28800" resolved="yes"/>
+    <change idref="t25" attribute="internalEffortDone" type="real" from="0" to="115200" resolved="yes"/>
+    <change idref="t26" attribute="internalEffortDone" type="real" from="0" to="57600" resolved="yes"/>
+    <change idref="t27" attribute="internalEffortDone" type="real" from="0" to="57600" resolved="yes"/>
+    <change idref="t28" attribute="internalEffortDone" type="real" from="0" to="57600" resolved="yes"/>
+    <change idref="t31" attribute="internalEffortDone" type="real" from="0" to="172800" resolved="yes"/>
+    <change idref="t32" attribute="internalEffortDone" type="real" from="0" to="86400" resolved="yes"/>
+    <change idref="t33" attribute="internalEffortDone" type="real" from="0" to="57600" resolved="yes"/>
+    <change idref="t34" attribute="internalEffortDone" type="real" from="0" to="288000" resolved="yes"/>
+    <change idref="t35" attribute="internalEffortDone" type="real" from="0" to="172800" resolved="yes"/>
+    <change idref="t36" attribute="internalEffortDone" type="real" from="0" to="57600" resolved="yes"/>
+    <change idref="t37" attribute="internalEffortDone" type="real" from="0" to="86400" resolved="yes"/>
+    <change idref="t39" attribute="internalEffortDone" type="real" from="0" to="57600" resolved="yes"/>
+    <change idref="t61" attribute="percentCompleteForMilestone" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t62" attribute="percentCompleteForMilestone" type="real" from="0" to="1" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Misaka" date="2018-12-29T09:12:17.147Z" timestamp="2018-12-29T09:12:17.147Z">
+    <change idref="t21" attribute="internalEffortDone" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t25" attribute="internalEffortDone" type="real" from="115200" to="100800" resolved="yes"/>
+    <change idref="t28" attribute="internalEffortDone" type="real" from="57600" to="43200" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Misaka" date="2018-12-29T09:13:01.218Z" timestamp="2018-12-29T09:13:01.218Z">
+    <change idref="t36" attribute="internalEffortDone" type="real" from="57600" to="36000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Misaka" date="2018-12-29T09:13:15.426Z" timestamp="2018-12-29T09:13:15.426Z">
+    <change idref="t35" attribute="internalEffortDone" type="real" from="172800" to="108000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Misaka" date="2018-12-29T09:13:21.533Z" timestamp="2018-12-29T09:13:21.533Z">
+    <change idref="t37" attribute="internalEffortDone" type="real" from="86400" to="0" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Misaka" date="2018-12-28T14:05:10.964Z" timestamp="2018-12-28T14:05:10.964Z">
     <change idref="r9" attribute="standardHoursString" type="string" from=";32400,39600,46800,57600;32400,39600,46800,57600;32400,39600,46800,57600;32400,39600,46800,57600;32400,39600,46800,57600;" to=";28800,43200,46800,64800;28800,43200,46800,64800;28800,43200,46800,64800;28800,43200,46800,64800;28800,43200,46800,64800;" resolved="yes"/>
   </resource-change-set>
@@ -635,5 +718,14 @@
   </metadata-change-set>
   <metadata-change-set user="Misaka" date="2018-12-29T06:24:39.314Z" timestamp="2018-12-29T06:24:39.314Z">
     <change idref="m1" attribute="fixedDate" type="date" from="2018-10-06T01:00:00.000Z" to="2018-10-08T01:00:00.000Z" resolved="yes"/>
+  </metadata-change-set>
+  <metadata-change-set user="Misaka" date="2018-12-29T08:56:07.178Z" timestamp="2018-12-29T08:56:07.178Z">
+    <change idref="m1" attribute="baselineInfo" type="dict" from="{&#10;    info =     (&#10;    );&#10;}" to="{&#10;    info =     (&#10;                {&#10;            name = &quot;\U57fa\U7ebf 2018/10/8&quot;;&#10;            uuid = luQDXHkD9kU;&#10;        }&#10;    );&#10;}" resolved="yes"/>
+  </metadata-change-set>
+  <metadata-change-set user="Misaka" date="2018-12-29T08:57:11.436Z" timestamp="2018-12-29T08:57:11.436Z">
+    <change idref="m1" attribute="baselineInfo" type="dict" from="{&#10;    info =     (&#10;                {&#10;            name = &quot;\U57fa\U7ebf 2018/10/8&quot;;&#10;            uuid = luQDXHkD9kU;&#10;        }&#10;    );&#10;}" to="{&#10;    info =     (&#10;                {&#10;            name = &quot;\U57fa\U7ebf 2018/10/8&quot;;&#10;            uuid = luQDXHkD9kU;&#10;        },&#10;                {&#10;            name = &quot;\U57fa\U7ebf 2018/11/8&quot;;&#10;            uuid = k0Dv0MPIOzD;&#10;        }&#10;    );&#10;}" resolved="yes"/>
+  </metadata-change-set>
+  <metadata-change-set user="Misaka" date="2018-12-29T09:16:14.783Z" timestamp="2018-12-29T09:16:14.783Z">
+    <change idref="m1" attribute="baselineInfo" type="dict" from="{&#10;    info =     (&#10;                {&#10;            name = &quot;\U57fa\U7ebf 2018/10/8&quot;;&#10;            uuid = luQDXHkD9kU;&#10;        },&#10;                {&#10;            name = &quot;\U57fa\U7ebf 2018/11/8&quot;;&#10;            uuid = k0Dv0MPIOzD;&#10;        }&#10;    );&#10;}" to="{&#10;    info =     (&#10;                {&#10;            name = &quot;\U57fa\U7ebf 2018/10/8&quot;;&#10;            uuid = luQDXHkD9kU;&#10;        },&#10;                {&#10;            name = &quot;\U57fa\U7ebf 2018/11/8&quot;;&#10;            uuid = k0Dv0MPIOzD;&#10;        },&#10;                {&#10;            name = &quot;\U57fa\U7ebf 2018/12/29&quot;;&#10;            uuid = jNBDsbpgBUc;&#10;        }&#10;    );&#10;}" resolved="yes"/>
   </metadata-change-set>
 </changelog>

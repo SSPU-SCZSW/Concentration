@@ -87,11 +87,12 @@
 | **1.8**        | 系统提交完成                 |                |                     |
 
 ## 项目管理职能分工表
-
-[职能分工表](docs/resource.html)
+- [职能分工表](docs/resource.html)
+  - [在线预览](https://sspu-sczsw.github.io/Concentration/resource.html)
 
 ## 甘特图
-[甘特图](docs/gantt.html)
+- [甘特图](docs/gantt.html)
+  - [在线预览](https://sspu-sczsw.github.io/Concentration/gantt.html)
 
 ## 网络图
 ![网络图](res/网络图.png)
@@ -110,7 +111,9 @@
 ## 项目进度控制
 2018 年 12 月 25 日，项目组长对项目各项工作进度进行检查，检查结果如下表。
 
-[任务报告](docs/task.html)
+- [任务报告](docs/task.html)
+  - [在线预览](https://sspu-sczsw.github.io/Concentration/task.html)
 
 ## 项目赢得值分析
-[赢得值分析](docs/eva.html)
+- [赢得值分析](docs/eva.html)
+  - [在线预览](https://sspu-sczsw.github.io/Concentration/eva.html)

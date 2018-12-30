@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/sort_by_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorOrangeRed"
+        android:textSize="14sp"
+        android:padding="8dp"
+        android:text="@string/sort_by_name"
+        android:background="?android:attr/selectableItemBackground"/>
+
+    <Button
+        android:id="@+id/sort_by_priority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorOrangeRed"
+        android:textSize="14sp"
+        android:padding="8dp"
+        android:text="@string/sort_by_priority"
+        android:background="?android:attr/selectableItemBackground"/>
+
+    <Button
+        android:id="@+id/sort_by_worked_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorOrangeRed"
+        android:textSize="14sp"
+        android:padding="8dp"
+        android:text="@string/sort_by_worked_time"
+        android:background="?android:attr/selectableItemBackground"/>
+
+    <Button
+        android:id="@+id/sort_by_deadline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorOrangeRed"
+        android:textSize="14sp"
+        android:padding="8dp"
+        android:text="@string/sort_by_deadline"
+        android:background="?android:attr/selectableItemBackground"/>
+
+</LinearLayout>

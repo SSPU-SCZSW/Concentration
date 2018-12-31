@@ -18,10 +18,6 @@ import java.text.MessageFormat;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by xiaohanhan on 2018/5/1.
- */
-
 public class MySQLHelper {
 
     private static final String driver = "com.mysql.jdbc.Driver";

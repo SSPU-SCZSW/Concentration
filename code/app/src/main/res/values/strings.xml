@@ -1,3 +1,42 @@
 <resources>
     <string name="app_name">Concentration</string>
+
+    <!-- TaskListFragment -->
+    <string name="add_task">Add Task</string>
+    <string name="deadline">Deadline: %1$s</string>
+
+    <!-- TaskFragment -->
+    <string name="detail_note">Note</string>
+    <plurals name="subtitle_plural">
+        <item quantity="zero">%1$d crime</item>
+        <item quantity="one">%1$d crime</item>
+        <item quantity="other">%1$d crimes</item>
+    </plurals>
+    <string name="detail_duration_and_times">Duration: %1$.1f mins | Work: %2$d times</string>
+
+    <!-- dialog_interruption -->
+    <string name="interruption_add_reason">Add Reason</string>
+
+    <!-- sort popupwindow -->
+    <string name="sort_by_name">sort by name</string>
+    <string name="sort_by_priority">sort by priority</string>
+    <string name="sort_by_worked_time">sort by worked time</string>
+    <string name="sort_by_deadline">sort by deadline</string>
+
+    <!-- Settings -->
+    <string name="title_activity_settings">Settings</string>
+    <string name="settings_working_time">Minutes</string>
+    <string name="concentration_section">Concentration</string>
+
+    <!-- fuck up -->
+    <string name="fuck_up_try_again">Click to try again</string>
+    <string name="network_error">Network Error</string>
+
+    <!-- record -->
+    <string name="record_interrupt">Interrupted</string>
+    <string name="record_working_time">%1$.1f Minutes</string>
+    <string name="record_expected_working_time">Expected Working Time: %1$d mins</string>
+
+    <!-- statistic -->
+    <string name="statistic_start_time">(Begin: %1$s)</string>
 </resources>
